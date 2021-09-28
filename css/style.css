@@ -1,0 +1,38 @@
+body {
+    padding-top: 75px;
+}
+
+.icon {
+    height: 100px;
+}
+
+.box-shadow{
+    box-shadow: 0 2px 4px 0 rgba(0, 0,0, .05),
+                 0 2px 4px 0 rgba(0, 0,0, .05);
+}
+
+#bg-quote{
+    background-image: url("../imagens/bg-quote.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 767px){
+    #bg-quote .display-4 {
+        font-size: 2.5rem;
+    }
+    body {
+        padding-top: 0px;
+    }
+    .fixed-top {
+        position: relative;
+    }
+}
+
+.pergunta {
+    border-bottom: 1px solid #cdcddc;
+}
+
+.lista-planos {
+    padding: 1rem;
+    border-bottom: 1px solid #cdcddc;
+}
