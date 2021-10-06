@@ -1,5 +1,5 @@
 Trabalho feito usando o bootstrap, o presente trabalho ainda não foi totalmente terminado, tá faltando a página de inscrição e a optimisação desta
-O docente poderá ver a actulização deste no site e reposítorio que segue abaixo, nada mais a esclarecer agradeço.
+O docente poderá ver a actulização deste, no site e reposítorio que segue abaixo, nada mais a esclarecer agradeço.
 
 # reposítorio
 https://github.com/corteisjr/Caravan
