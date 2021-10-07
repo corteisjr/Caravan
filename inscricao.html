@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Caravana - Contacto</title>
+    <title>Caravana - Inscrição</title>
 </head>
 <body>
     
@@ -73,102 +73,60 @@
 
     <section class="container" >
         <div class="my-5 text-center">
-            <span class="h6 d-block">POSSUI ALGUMA DÚVIDA?</span>
-            <h1 class="display-4 text-primary">Fale conosco</h1>
+            <span class="h6 d-block">PROGRAME A VIAGEM DO SEU SONHO?</span>
+            <h2 class="display-4 text-primary">INSCREVA-SE</h2>
         </div>
-
         <div class="row">
-            <div class="col-lg mb-5">
-                <form action="" class="bg-light rounded p-4 box-shadow">
-                    <div class="form-group">
-                        <label for="clienteNome">Nome</label>
-                        <input type="text" class="form-control" id="clienteNome">
-                      </div>
+            <form action="" class="col-lg-6">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputNome">Nome</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Nome completo">
+                    </div>
 
-                    <div class="form-group">
-                        <label for="clienteEmail">Email</label>
-                        <input type="email" class="form-control" id="clienteEmail">
-                      </div>
-                      <div class="form-group">
-                        <label for="clienteMensagem">Mensagem</label>
-                       <textarea  id="clienteMensagem" class="form-control" rows="4"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Enviar Mensagem</button>  
-                </form>
-            </div>
-            <div class="col-lg">
-                <h2 class="h6">NOSSO ENDEREÇO</h2>
-               <!--Google map-->
-               <a href="#" class="img-fluid box-shadow rounded mb-4 z-depth-1-half map-container ">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6003038.7240046505!2d33.20337345310038!3d-19.33274254722878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19264788ffa5b0b9%3A0x754b378d39112282!2sTete!5e0!3m2!1spt-PT!2smz!4v1633559204979!5m2!1spt-PT!2smz" frameborder="0"></iframe>
-                </a>
-                <!--Google Maps-->
-                    <h2 class="h6">DADOS DE CONTACTO</h2>
-                    <ul class="list-unstyled text-secondary">
-                        <li>caravan@caravan.co.mc</li>
-                        <li>+25 848348483</li>
-                        <li>De seg. à Sex. das 8h às 18h</li>
-                    </ul>
-                    <h2 class="h6">REDES SOCIAIS</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="" class="btn btn-outline-secondary btn-sm btn-block mb-1" style="max-width: 140px;">Facebook</a></li>
-                        <li><a href="" class="btn btn-outline-secondary btn-sm btn-block mb-1" style="max-width: 140px;">Instagram</a></li>
-                        <li><a href="" class="btn btn-outline-secondary  btn-sm btn-block mb-1" style="max-width: 140px;">Youtube</a></li>
-                    </ul>
-            </div>
-        </div>
-    </section>
+                    <div class="form-group col-md-6">
+                        <label for="inputBI">BI</label>
+                        <input type="text" class="form-control" id="inputBI" placeholder="555-555-555-555X" maxlength="13">
+                    </div>
 
-    <!-- Perguntas Frequentes -->
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Seu email">
+                    </div>
 
-    <section class="container">
-        <div class="my-5 text-center">
-            <span class="h6 d-block">AINDA ESTÁ COM DÚVIDA?</span>
-            <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
-        </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputSenha">Senha</label>
+                        <input type="password" class="form-control" id="inputBI" placeholder="Senha de acesso">
+                    </div>
 
-        <div class="row justify-content-center">
-            <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
-                <div class="pergunta  py-2">
-                    <a class="lead" href="#pergunta1" data-toggle="collapse" data-parent="#perguntasFrequentes">→ É possível cancelar a viagem?</a>
-                    <div id="pergunta1" class="collapse show" role="tabpanel">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus explicabo harum repellat unde iste quis?</p>
-                     </div>    
+                    <div class="form-group col-12">
+                        <label for="inputEndereco">Bairro</label>
+                        <input type="text" class="form-control" id="inputEndereco" placeholder="Seu bairro">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputCidade">Capital</label>
+                        <input type="text" class="form-control" id="inputCidade" placeholder="Capital da sua Província">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputCidade">Província</label>
+                        <select name="" id="inputCidade" class="form-control">
+                            <option value="">Selecione a província</option>
+                            <option value="">Cabo Delgado</option>
+                            <option value="">Gaza</option>
+                            <option value="">Inhambane</option>
+                            <option value="">Maputo(cidade)</option>
+                            <option value="">Maputo</option>
+                            <option value="">Nampula</option>
+                            <option value="">Niassa</option>
+                            <option value="">Sofala</option>
+                            <option value="">Tete</option>
+                            <option value="">Zambézia</option>
+                        </select>
+                    </div>
                 </div>
-
-                <div class="pergunta  py-2">
-                    <a class="lead" href="#pergunta2" data-toggle="collapse" data-parent="#perguntasFrequentes">→ Qual a garantia que tenho se perder o voo?</a>
-                    <div id="pergunta2" class="collapse" role="tabpanel">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus explicabo harum repellat unde iste quis?</p>
-                     </div>    
-                </div>
-
-                <div class="pergunta  py-2">
-                    <a class="lead" href="#pergunta3" data-toggle="collapse" data-parent="#perguntasFrequentes">→ Qual a principal forma de viagem?</a>
-                    <div id="pergunta3" class="collapse" role="tabpanel">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus explicabo harum repellat unde iste quis?</p>
-                     </div>    
-                </div>
-
-                <div class="pergunta  py-2">
-                    <a class="lead" href="#pergunta4" data-toggle="collapse" data-parent="#perguntasFrequentes">→ Qual o melhor destino de viagem?</a>
-                    <div id="pergunta4" class="collapse" role="tabpanel">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus explicabo harum repellat unde iste quis?</p>
-                     </div>    
-                </div>
-
-                <div class="pergunta py-2">
-                    <a class="lead" href="#pergunta5" data-toggle="collapse" data-parent="#perguntasFrequentes">→ Vocês dão descontos para grupos grandes?</a>
-                    <div id="pergunta5" class="collapse" role="tabpanel">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus explicabo harum repellat unde iste quis?</p>
-                     </div>    
-                </div>
-            </div>
-        </div>
-        <div class=" pergunta"></div>
-        <div class="text-center my-4">
-            <p class="small m-2">Fale conosco para mais dúvidas</p>
-            <a href="contacto.html" class="btn btn-primary btn-lg">Entre em contacto</a>
+            </form>
         </div>
     </section>
 
