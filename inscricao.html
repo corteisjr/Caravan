@@ -126,6 +126,58 @@
                         </select>
                     </div>
                 </div>
+                <div class="bg-light rounded box-shadow p-3 form-group">
+                    <h2 class="h6 text-primary">FORMA DE PAGAMENTO</h2>
+                    <nav class="nav btn-group" id="formaPamento" role="tablist">
+                        <button type="button" class="btn btn-secondary active btn-sm" id="nav-cartao-tab" data-toggle="tab" href="#nav-cartao" role="tab" aria-controls="nav-cartao" aria-selected="true">Cartão de Crédito</button>
+                        <button type="button" class="btn btn-secondary  btn-sm" id="nav-mpesa-tab" data-toggle="tab" href="#nav-mpesa" role="tab" aria-controls="nav-mpesa" aria-selected="false">M-pesa</button>
+                    </nav>
+                    <div class="tab-content" id="formaPagamentoConteudo">
+                        <div class="tab-pane fade show active" id="nav-cartao"  role="tabpanel" aria-labelledby="nav-cartao-tab">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputNomeCartao">Nome no cartão</label>
+                                    <input type="text" class="form-control" id="inputNomeCartao" placeholder="Nome impresso no cartão">
+                                </div>
+                                <div class="form-group col-md-3 col-6">
+                                    <label for="inputMes">Mês</label>
+                                    <select name="" id="inputMes" class="form-control">
+                                        <option value="">Expira mês...</option>
+                                        <option value="">01</option>
+                                        <option value="">02</option>
+                                        <option value="">03</option>
+                                        <option value="">04</option>
+                                        <option value="">05</option>
+                                        <option value="">06</option>
+                                        <option value="">07</option>
+                                        <option value="">08</option>
+                                        <option value="">09</option>
+                                        <option value="">10</option>
+                                        <option value="">11</option>
+                                        <option value="">12</option>
+                                    </select>
+                                </div>         
+                                
+                                <div class="form-group col-md-3 col-6">
+                                    <label for="inputAno">Ano</label>
+                                    <select name="" id="inputAno" class="form-control">
+                                        <option value="">Expira ano...</option>
+                                        <option value="">2021</option>
+                                        <option value="">2021</option>
+                                        <option value="">2023</option>
+                                        <option value="">2024</option>
+                                        <option value="">2025</option>
+                                        <option value="">2026</option>
+                                    </select>
+                                </div>          
+                                
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="nav-mpesa"  role="tabpanel" aria-labelledby="nav-mpesa-tab">
+                            <h2 class="h5 mt-3 text-warning">Indisponível</h2>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
     </section>
