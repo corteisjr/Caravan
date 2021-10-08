@@ -170,7 +170,14 @@
                                         <option value="">2026</option>
                                     </select>
                                 </div>          
-                                
+                                <div class="form-group col-md-6">
+                                    <label for="inputNumeroCartao">Número do cartão</label>
+                                    <input type="text" class="form-control" id="inputNumeroCartao" placeholder="5555 5555 5555 5555">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputCodigoDocartao">Código do cartão</label>
+                                    <input type="text" class="form-control" id="inputCodigoDocartao" placeholder="xxx">
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane fade show" id="nav-mpesa"  role="tabpanel" aria-labelledby="nav-mpesa-tab">
@@ -178,7 +185,49 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="form-check">
+                    <label for="" class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        <p>Concordo com os <a class="text-primary" href="#">termos e condições</a>.</p>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">
+                    Contratar Plano
+                </button>
             </form>
+
+            <div class="col-lg-5 mx-auto order-first order-lg-1 mb-5">
+                <h2 class="h6 text-primary ">Plano escolhido</h2>
+                <div class="col-md mb-5">
+                    <div class="bg-light rounded p-4 box-shadow">
+                         <h2>Gold</h2>
+                         <ul class="list-unstyled">
+                             <li class=" lista-planos">→ 30 dias de viagem</li>
+                             <li class=" lista-planos">→ 3 destinos diferentes</li>
+                             <li class=" lista-planos">→ Tudo pago pela empresa</li>
+                             <li>→ Ingressos para festas</li>                                                    
+                         </ul>
+ 
+                         <form action="">
+                             <div class="form-group">
+                                 <select class="form-control bg-light" id="inputCidades">
+                                   <option>Seleciona o local</option>
+                                   <option>Abu Dhabi</option>
+                                   <option>Ilha de Moçambique</option>
+                                   <option>Praia do Wimbe</option>
+                                 </select>
+                               </div>
+                         </form>
+                         <div class="row mt-4">
+                             <div class="col">
+                                 <span class="h4">10.000mt</span>
+                             </div>
+                         </div>
+                     </div>
+                </div> 
+            </div>
+
         </div>
     </section>
 
